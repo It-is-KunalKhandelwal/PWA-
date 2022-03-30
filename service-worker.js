@@ -42,7 +42,7 @@ self.addEventListener('install',evt=>{
     );
     
 })
-//activate service worker
+//Activate Service_worker
 self.addEventListener('activate',evt=>{
     evt.waitUntil(
         caches.keys().then(keys=>{
